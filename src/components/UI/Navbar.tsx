@@ -1,33 +1,26 @@
 //rrd
 import { Link } from "react-router-dom";
 //logo
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logo_alt.png";
 
 const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container flex">
-          <div className="m-2">
+        <div className="container flex bg-color1">
+          <div className="p-2">
             <Link to="/">
-              <img src={logo} alt="logo" className="w-24 sm:w-28" />
+              <img src={logo} alt="logo" className="w-20" />
             </Link>
           </div>
-          <div className="bg-black w-full flex items-center justify-between">
+          <div className=" w-full flex items-center justify-between">
             <div>
-              <Link to="/" className="text-gray-200 mx-2 sm:mx-4 sm:text-xl">
+              <Link to="/" className="black mx-2">
                 Barberos
               </Link>
-              <Link to="/" className="text-gray-200 mx-2 sm:mx-4 sm:text-xl">
+              <Link to="/" className="black mx-2">
                 Barberias
               </Link>
-            </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Buscar..."
-                className="w-32 ms-auto me-2 text-sm sm:w-64 sm:me-8 sm:text-lg border border-gray-300 rounded-lg bg-gray-100 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent placeholder-gray-500"
-              />
             </div>
           </div>
         </div>

@@ -3,4 +3,6 @@ export interface HairStylist {
   name: string;
   description: string;
   image: string;
+  rating: number;
+  reviews: number;
 }
