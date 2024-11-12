@@ -4,6 +4,7 @@ import { hairStylists } from "../assets/data/hairStylists";
 import { Link } from "react-router-dom";
 //components
 import HairStylistCard from "../components/HairStylistCard";
+import AppDescription from "../components/UI/AppDescription";
 //hooks
 import { useState } from "react";
 //fa
@@ -11,6 +12,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBackward, faForward } from "@fortawesome/free-solid-svg-icons";
 //css
 import "../assets/styles/pagination-arrows.css";
+//utils
+import { basePath } from "../utils/basePath";
 
 const Home = () => {
   //pagination
@@ -33,13 +36,14 @@ const Home = () => {
 
   return (
     <>
+      <AppDescription />
       <div className="bg-black">
         <h1 className="text-center text-gray-200 pt-4 text-sm">
           Conoce a nuestros profesionales:
         </h1>
         <div className="container p-4 grid grid-cols-1 gap-5 place-items-center">
           {currentItems.map((hs) => (
-            <Link to="/" key={hs.id}>
+            <Link to={`${basePath}barbero/${hs.id}`} key={hs.id}>
               <HairStylistCard hairStylist={hs}></HairStylistCard>
             </Link>
           ))}

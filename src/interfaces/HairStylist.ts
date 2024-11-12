@@ -5,4 +5,6 @@ export interface HairStylist {
   image: string;
   rating: number;
   reviews: number;
+  phone: number;
+  address: string;
 }

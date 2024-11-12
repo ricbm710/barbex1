@@ -10,6 +10,7 @@ const HairStylistCard = ({ hairStylist }: { hairStylist: HairStylist }) => {
     <div className="bg-color2 rounded-md shadow-lg w-64 p-1 border border-gray-600">
       <img
         src={`${basePath}hs_images/${hairStylist.image}`}
+        alt="barbero"
         className="w-full h-28 object-cover border-2 border-black rounded-xl"
       />
       <div>

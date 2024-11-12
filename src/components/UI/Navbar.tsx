@@ -2,6 +2,8 @@
 import { Link } from "react-router-dom";
 //logo
 import logo from "../../assets/logo_alt.png";
+//utils
+import { basePath } from "../../utils/basePath";
 
 const Navbar = () => {
   return (
@@ -9,7 +11,7 @@ const Navbar = () => {
       <nav>
         <div className="container flex bg-color1">
           <div className="p-2">
-            <Link to="/">
+            <Link to={basePath}>
               <img src={logo} alt="logo" className="w-20" />
             </Link>
           </div>

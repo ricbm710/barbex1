@@ -10,6 +10,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs1.jpeg",
     rating: 3.4,
     reviews: 16,
+    phone: 75548752,
+    address: "Av. Santos Dumont, 4to anillo, calle 13",
   },
   {
     id: 2,
@@ -19,6 +21,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs2.jpeg",
     rating: 4.8,
     reviews: 25,
+    phone: 69054252,
+    address: "Av. Alemana, 4to anillo, calle Los Tusequis",
   },
   {
     id: 3,
@@ -28,6 +32,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs3.jpeg",
     rating: 2.2,
     reviews: 9,
+    phone: 70899335,
+    address: "Calle Republiquetas # 164",
   },
   {
     id: 4,
@@ -37,6 +43,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs4.jpeg",
     rating: 3.5,
     reviews: 11,
+    phone: 76558276,
+    address: "Servicio a Domicilio",
   },
   {
     id: 5,
@@ -46,6 +54,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs5.jpeg",
     rating: 4.1,
     reviews: 15,
+    phone: 77854281,
+    address: "Carretera al Norte, Km. 6, Av. Pedro Suarez",
   },
   {
     id: 6,
@@ -55,6 +65,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs6.jpeg",
     rating: 1.5,
     reviews: 3,
+    phone: 60540581,
+    address: "Comercial Cañoto, local 54",
   },
   {
     id: 7,
@@ -64,6 +76,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs7.jpeg",
     rating: 2.0,
     reviews: 8,
+    phone: 66378012,
+    address: "Comercial Las Brisas, Barberia Micky",
   },
   {
     id: 8,
@@ -73,6 +87,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs8.jpeg",
     rating: 3.6,
     reviews: 22,
+    phone: 70573915,
+    address: "Calle Bolivar # 16",
   },
   {
     id: 9,
@@ -82,6 +98,8 @@ export const hairStylists: HairStylist[] = [
     image: "hs9.jpeg",
     rating: 4.6,
     reviews: 18,
+    phone: 77806497,
+    address: "Comercial Norte, 2do Piso, Pasillo E",
   },
   {
     id: 10,
@@ -91,5 +109,7 @@ export const hairStylists: HairStylist[] = [
     image: "hs10.jpeg",
     rating: 3.3,
     reviews: 16,
+    phone: 66245782,
+    address: "Av. Beni entre 3er y 4to anillo",
   },
 ];
