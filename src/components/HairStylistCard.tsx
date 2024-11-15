@@ -9,13 +9,13 @@ const HairStylistCard = ({ hairStylist }: { hairStylist: HairStylist }) => {
   return (
     <div className="bg-color2 rounded-md shadow-lg w-64 p-1 border border-gray-600">
       <img
-        src={`${basePath}hs_images/${hairStylist.image}`}
+        src={`${basePath}hs_images/${hairStylist.image_name}`}
         alt="barbero"
         className="w-full h-28 object-cover border-2 border-black rounded-xl"
       />
       <div>
         <h2 className="text-gray-200 text-xs text-center p-2">
-          {hairStylist.name}
+          {hairStylist.name_hs}
         </h2>
       </div>
       <div className="flex justify-center items-center">

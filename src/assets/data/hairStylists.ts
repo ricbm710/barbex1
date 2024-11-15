@@ -4,10 +4,10 @@ import { HairStylist } from "../../interfaces/HairStylist";
 export const hairStylists: HairStylist[] = [
   {
     id: 1,
-    name: "Carlos Gómez",
-    description:
+    name_hs: "Carlos Gómez",
+    description_hs:
       "Especialista en cortes modernos y clásicos, con más de 10 años de experiencia.",
-    image: "hs1.jpeg",
+    image_name: "hs1.jpeg",
     rating: 3.4,
     reviews: 16,
     phone: 75548752,
@@ -15,10 +15,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 2,
-    name: "Fernando Ruiz",
-    description:
+    name_hs: "Fernando Ruiz",
+    description_hs:
       "Barbero profesional, experto en degradados y cuidado de la barba.",
-    image: "hs2.jpeg",
+    image_name: "hs2.jpeg",
     rating: 4.8,
     reviews: 25,
     phone: 69054252,
@@ -26,10 +26,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 3,
-    name: "Luis Martínez",
-    description:
+    name_hs: "Luis Martínez",
+    description_hs:
       "Conocido por sus cortes personalizados y atención al detalle.",
-    image: "hs3.jpeg",
+    image_name: "hs3.jpeg",
     rating: 2.2,
     reviews: 9,
     phone: 70899335,
@@ -37,10 +37,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 4,
-    name: "Juan Pérez",
-    description:
-      "Especialista en estilos europeos y asesoría de imagen masculina.",
-    image: "hs4.jpeg",
+    name_hs: "Juan Pérez",
+    description_hs:
+      "Especialista en estilos europeos y asesoría de image_namen masculina.",
+    image_name: "hs4.jpeg",
     rating: 3.5,
     reviews: 11,
     phone: 76558276,
@@ -48,10 +48,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 5,
-    name: "Ricardo Díaz",
-    description:
+    name_hs: "Ricardo Díaz",
+    description_hs:
       "Barbero experto en técnicas de afeitado clásico y diseños personalizados.",
-    image: "hs5.jpeg",
+    image_name: "hs5.jpeg",
     rating: 4.1,
     reviews: 15,
     phone: 77854281,
@@ -59,10 +59,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 6,
-    name: "Andrés Torres",
-    description:
+    name_hs: "Andrés Torres",
+    description_hs:
       "Con experiencia en cortes para eventos especiales y sesiones de fotos.",
-    image: "hs6.jpeg",
+    image_name: "hs6.jpeg",
     rating: 1.5,
     reviews: 3,
     phone: 60540581,
@@ -70,10 +70,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 7,
-    name: "Miguel Sánchez",
-    description:
+    name_hs: "Miguel Sánchez",
+    description_hs:
       "Ofrece un servicio de corte y cuidado de barba con productos premium.",
-    image: "hs7.jpeg",
+    image_name: "hs7.jpeg",
     rating: 2.0,
     reviews: 8,
     phone: 66378012,
@@ -81,10 +81,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 8,
-    name: "Diego Fernández",
-    description:
+    name_hs: "Diego Fernández",
+    description_hs:
       "Destacado por su precisión en cortes de estilo urbano y moderno.",
-    image: "hs8.jpeg",
+    image_name: "hs8.jpeg",
     rating: 3.6,
     reviews: 22,
     phone: 70573915,
@@ -92,10 +92,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 9,
-    name: "Jorge Ramírez",
-    description:
+    name_hs: "Jorge Ramírez",
+    description_hs:
       "Especialista en estilos juveniles y frescos, siempre a la vanguardia.",
-    image: "hs9.jpeg",
+    image_name: "hs9.jpeg",
     rating: 4.6,
     reviews: 18,
     phone: 77806497,
@@ -103,10 +103,10 @@ export const hairStylists: HairStylist[] = [
   },
   {
     id: 10,
-    name: "Héctor López",
-    description:
+    name_hs: "Héctor López",
+    description_hs:
       "Reconocido por su trato personalizado y asesoría en tendencias de moda masculina.",
-    image: "hs10.jpeg",
+    image_name: "hs10.jpeg",
     rating: 3.3,
     reviews: 16,
     phone: 66245782,
